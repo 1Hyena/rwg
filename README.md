@@ -21,5 +21,13 @@ to demonstrate the library.
 As a result, truly random yet natural looking world maps could be generated. These maps
 display a wide variety of biomes, mountain ranges, rivers, lakes and fractal coastlines.
 
+This thesis was written in the Estonian language and can be read here:
+
+http://dspace.ut.ee/handle/10062/32808
+
+A video demonstration of the results of this thesis is available here:
+
+https://www.youtube.com/watch?v=JveA-mA3SdE
+
 https://www.youtube.com/watch?v=fvvJ2PoqqBo
 
