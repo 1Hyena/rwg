@@ -1,0 +1,2 @@
+# rwg
+Random World Generator
