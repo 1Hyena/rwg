@@ -1,2 +1,2 @@
-# rwg
+# RWG
 Random World Generator
