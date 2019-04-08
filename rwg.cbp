@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6" />
+	<Project>
+		<Option title="rwg" />
+		<Option pch_mode="2" />
+		<Option compiler="gcc" />
+		<Build>
+			<Target title="Debug">
+				<Option output="lib\librwg" prefix_auto="1" extension_auto="1" />
+				<Option working_dir="" />
+				<Option object_output="obj\" />
+				<Option type="2" />
+				<Option compiler="gcc" />
+				<Option createDefFile="1" />
+				<Compiler>
+					<Add option="-Wall" />
+					<Add option="-g" />
+				</Compiler>
+			</Target>
+			<Target title="Release">
+				<Option output="lib\librwg" prefix_auto="1" extension_auto="1" />
+				<Option working_dir="" />
+				<Option object_output="obj\" />
+				<Option type="2" />
+				<Option compiler="gcc" />
+				<Option createDefFile="1" />
+				<Compiler>
+					<Add option="-Wall" />
+					<Add option="-O2" />
+				</Compiler>
+				<Linker>
+					<Add option="-s" />
+				</Linker>
+			</Target>
+		</Build>
+		<Compiler>
+			<Add directory="include" />
+		</Compiler>
+		<Unit filename="include\rwg.h" />
+		<Unit filename="include\rwg\droplet.h" />
+		<Unit filename="include\rwg\lake.h" />
+		<Unit filename="include\rwg\landmark.h" />
+		<Unit filename="include\rwg\map.h" />
+		<Unit filename="include\rwg\object.h" />
+		<Unit filename="include\rwg\river.h" />
+		<Unit filename="include\rwg\task.h" />
+		<Unit filename="include\rwg\world.h" />
+		<Unit filename="src\droplet.cpp" />
+		<Unit filename="src\lake.cpp" />
+		<Unit filename="src\landmark.cpp" />
+		<Unit filename="src\map.cpp" />
+		<Unit filename="src\object.cpp" />
+		<Unit filename="src\river.cpp" />
+		<Unit filename="src\rwg.cpp" />
+		<Unit filename="src\task.cpp" />
+		<Unit filename="src\world.cpp" />
+		<Extensions>
+			<code_completion />
+			<envvars />
+			<debugger />
+			<lib_finder disable_auto="1" />
+		</Extensions>
+	</Project>
+</CodeBlocks_project_file>
